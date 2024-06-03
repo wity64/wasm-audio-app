@@ -1,3 +1,4 @@
+import "./TextEncoder.js";
 import init, { WasmPitchDetector } from "./wasm-audio/wasm_audio.js";
 
 class PitchProcessor extends AudioWorkletProcessor {
